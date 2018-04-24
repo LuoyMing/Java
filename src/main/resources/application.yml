@@ -1,0 +1,11 @@
+server:
+  port: ${port:8014}
+  tomcat:
+    max-threads: ${max-threads:2001}
+  multi: true
+  scheme: 1
+spring:
+  application:
+    name: article    # 项目名称尽量用小写
+  aop:
+    proxy-target-class: true
